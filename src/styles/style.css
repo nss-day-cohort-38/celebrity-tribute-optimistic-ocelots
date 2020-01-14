@@ -11,3 +11,15 @@ footer ul {
     justify-content: space-between;
     width: 33%;
 }
+
+.published-works img {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.family img {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
