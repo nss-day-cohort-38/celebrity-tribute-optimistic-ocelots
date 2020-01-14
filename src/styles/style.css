@@ -12,8 +12,14 @@ footer ul {
     width: 33%;
 }
 
-.published-works {
+.published-works img {
     display: flex;
-    height: 100px;
-    width: auto;
+    flex-direction: column;
+    width: 20%;
+}
+
+.family img {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }
