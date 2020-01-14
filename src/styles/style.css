@@ -8,8 +8,9 @@ footer ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 15%;
+    justify-content: space-around;
+    font-weight: bold;
+    letter-spacing: 2px
 }
 
 h1 {
