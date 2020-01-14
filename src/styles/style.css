@@ -11,3 +11,9 @@ footer ul {
     justify-content: space-between;
     width: 33%;
 }
+
+.published-works {
+    display: flex;
+    height: 100px;
+    width: auto;
+}
