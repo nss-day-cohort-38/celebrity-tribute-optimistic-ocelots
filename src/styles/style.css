@@ -84,7 +84,8 @@ li {
 }
 .flex-container {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    justify-content: center;
 }
 .portrait-photo {
     width: 500px;
