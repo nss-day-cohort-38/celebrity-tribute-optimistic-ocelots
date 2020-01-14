@@ -12,7 +12,6 @@ footer ul {
     width: 33%;
 }
 
-
 .navigation {
 display: flex;
 justify-content: space-evenly;
@@ -24,4 +23,15 @@ padding: 2em;
 
 .navigation a {
 color: whitesmoke;
+}
+.published-works img {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.family img {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }
