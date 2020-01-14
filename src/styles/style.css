@@ -1,37 +1,78 @@
 footer {
-        background-color: #F1F1F1;
-        text-align: center;
-        padding: 10px;
-        }
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
 
 footer ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 33%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 33%;
 }
 
 .navigation {
-display: flex;
-justify-content: space-evenly;
-font-weight: bold;
-letter-spacing: 10px;
-background-color: black;
-padding: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  letter-spacing: 10px;
+  background-color: black;
+  padding: 2em;
 }
 
 .navigation a {
-color: whitesmoke;
-}
-.published-works img {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+  color: whitesmoke;
 }
 
 .family img {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.header {
+  color: black;
+  text-align: center;
+  letter-spacing: 0.8em;
+  border-width: 4px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container > img {
+  align-self: flex-start;
+}
+
+.awards {
+  font-size: 15px;
+}
+
+.published-works {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.published-works .image {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.published-works figcaption {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.places-lived li {
+  padding: 2px;
+}
+
+.places-lived h3 {
+    margin-bottom: 5px;
 }
