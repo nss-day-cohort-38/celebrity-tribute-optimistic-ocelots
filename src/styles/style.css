@@ -59,7 +59,41 @@ a:hover {
 }
 
 .family img {
+    width: 200px;
+    padding: 10px;
+}
+
+.family {
     display: flex;
-    flex-direction: column;
-    width: 20%;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.family p, .header {
+    text-align: center;
+}
+
+.generalInfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.personalInfoImage {
+    width: 35%;
+    margin: 20px;
+}
+
+.media-container {
+    display: flex;
+    justify-content: center;
+}
+
+.media-container figcaption {
+    width: 560px;
+}
+
+img {
+    border-radius: 20px;
 }
