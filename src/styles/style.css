@@ -1,3 +1,6 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
 footer {
         background-color: #F1F1F1;
         text-align: center;
@@ -13,12 +16,12 @@ footer ul {
 }
 
 .navigation {
-display: flex;
-justify-content: space-evenly;
-font-weight: bold;
-letter-spacing: 10px;
-background-color: black;
-padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    letter-spacing: 10px;
+    background-color: black;
+    padding: 2em;
 }
 
 .navigation a {
@@ -34,4 +37,25 @@ color: whitesmoke;
     display: flex;
     flex-direction: column;
     width: 20%;
+}
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+li {
+    padding: 3px 0px;
+}
+.flex-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.portrait-photo {
+    width: 500px;
+}
+.sidebar {
+    margin-left: 60px;
+    width: 400px;
+}
+.portrait-img-container {
+    margin-top: 25px;
 }
