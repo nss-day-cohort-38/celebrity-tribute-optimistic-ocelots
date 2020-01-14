@@ -9,7 +9,11 @@ footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 33%;
+    width: 15%;
+}
+
+h1 {
+    margin-top: 2.5em;
 }
 
 .navigation {
@@ -20,6 +24,10 @@ color: whitesmoke;
 letter-spacing: 2px;
 background-color: black;
 padding: 2em;
+position: fixed;
+top: 0;
+width: 100%;
+
 }
 
 nav > a {
