@@ -11,3 +11,17 @@ footer ul {
     justify-content: space-between;
     width: 33%;
 }
+
+
+.navigation {
+display: flex;
+justify-content: space-evenly;
+font-weight: bold;
+letter-spacing: 10px;
+background-color: black;
+padding: 2em;
+}
+
+.navigation a {
+color: whitesmoke;
+}
