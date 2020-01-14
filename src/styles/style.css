@@ -1,5 +1,5 @@
 footer {
-        background-color: #F1F1F1;
+        background-color: black;
         text-align: center;
         padding: 10px;
         }
@@ -16,18 +16,37 @@ footer ul {
 display: flex;
 justify-content: space-evenly;
 font-weight: bold;
-letter-spacing: 10px;
+color: whitesmoke;
+letter-spacing: 2px;
 background-color: black;
 padding: 2em;
 }
 
-.navigation a {
-color: whitesmoke;
+nav > a {
+    margin-right: 80px;
 }
+
 .published-works img {
     display: flex;
     flex-direction: column;
     width: 20%;
+}
+
+a:link {
+    border: 1px solid black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:visited {
+    border: 1px solid black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    border: 1px solid whitesmoke;
 }
 
 .family img {
