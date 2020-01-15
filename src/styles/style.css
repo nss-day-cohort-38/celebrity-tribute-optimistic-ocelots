@@ -16,10 +16,6 @@ footer ul {
     letter-spacing: 2px
 }
 
-h1 {
-    margin-top: 2.5em;
-}
-
 .navigation {
 display: flex;
 justify-content: space-evenly;
@@ -28,9 +24,6 @@ color: whitesmoke;
 letter-spacing: 2px;
 background-color: black;
 padding: 2em;
-position: fixed;
-top: 0;
-width: 100%;
 }
 
 nav > a {
